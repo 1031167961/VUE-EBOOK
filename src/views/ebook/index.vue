@@ -1,13 +1,18 @@
 <template>
   <div class="ebook">
-    aaa
+    <ebook-reader></ebook-reader>
   </div>
 </template>
 
 <script>
-export default {}
+import EbookReader from '../../components/ebook/EbookReader'
+export default {
+  components: {
+    EbookReader
+  }
+}
 </script>
 
-<style>
+<style lang="sass" rel="stylesheet/scss" scoped>
 
 </style>
